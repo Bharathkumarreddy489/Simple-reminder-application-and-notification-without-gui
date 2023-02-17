@@ -1,0 +1,14 @@
+import time
+from plyer import notification
+def hero():
+    if __name__ =="__main__":
+        notification.notify(
+            title="Time to study",
+            message="Please prepare for your ca",
+            
+            #app_name="Devotional",
+            #app_icon="G:\CHROME DOWN\Oxygen-Icons.org-Oxygen-Actions-document-edit.ico",
+            timeout=10
+        )
+time.sleep(10)
+hero()
